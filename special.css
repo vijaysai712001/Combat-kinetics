@@ -1,0 +1,410 @@
+
+#icon {
+  list-style-type: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  margin-top: 0;
+  padding-right: 30px;
+  background-color: rgb(15, 15, 15);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#icon li a {
+  float: right;
+  display: block;
+  padding: 4px;
+  font-size: 15px;
+  text-decoration: none;
+  margin-left: 15px;
+  color: white;
+
+
+}
+
+#icon li {
+  padding-top: 1px;
+}
+
+
+.header {
+  margin-top: 10px;
+  background-color: black;
+  min-height: min-content;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 100%;
+  height: 73px;
+  margin-top: 38px;
+  font-size: 15px;
+}
+
+
+.header li {
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+.header a {
+
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
+
+.header li a:hover {
+  background-color: yellow;
+  color: black;
+}
+
+ul:last-child {
+  padding-right: 20px;
+
+}
+
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 16px;
+  border: none;
+
+}
+
+.dropdown {
+  position: relative;
+  float: right;
+  display: inline-block;
+
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ecf40f;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: yellow;
+  color: black;
+}
+
+
+.special {
+  
+  margin: auto;
+  width: 100%;
+  padding-top: 50px;
+  height: 400px;
+  background-color: rgb(31, 28, 28);
+}
+
+.special,
+p {
+  font-size: 55px;
+  padding-left: 70px;
+  margin-top: 30px;
+  padding-top: 40px;
+  color: #dee941;
+}
+
+.special,
+h2 {
+  font-size: 20px;
+  color: white;
+  padding-left: 70px;
+}
+
+.offer {
+  width: 100%;
+  height: 330px;
+  background-color: black;
+}
+
+.one {
+  width: 40%;
+  height: 530px;
+  background-color: rgb(41, 39, 39);
+  float: left;
+  display: flex;
+  padding-top: 35px;
+  padding-left: 35px;
+}
+
+.two {
+  width: 40%;
+  height: 530px;
+  background-color: rgb(41, 39, 39);
+  float: left;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.three {
+  width: 20%;
+  height: 530px;
+  background-color: rgb(41, 39, 39);
+  float: left;
+  display: flex;
+}
+
+.two a {
+  font-size: 20px;
+  color: yellow;
+  text-decoration: none;
+
+}
+
+.two p {
+  font-size: 17px;
+  color: white;
+}
+
+.three span {
+  color: white;
+  font-size: 34px;
+}
+
+.three p {
+  color: white;
+  font-size: 24px;
+}
+
+.counter h2 {
+  width: 190px;
+  height: 240px;
+  border-style: solid;
+  padding-left: 12px;
+  color: white;
+}
+
+.counter {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+
+.three button {
+  background-color: rgb(221, 221, 3);
+  border: none;
+  color: rgb(255, 255, 255);
+  margin-top: 50px;
+  margin-left: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 180px;
+  height: 50px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.boxing {
+  width: 100%;
+  height: 330px;
+  background-color: black;
+}
+
+.boxone {
+  width: 40%;
+  height: 530px;
+  background-color: rgb(12, 11, 11);
+  float: left;
+  display: flex;
+  padding-top: 35px;
+  padding-left: 35px;
+}
+
+.boxtwo {
+  width: 40%;
+  height: 530px;
+  background-color: rgb(12, 11, 11);
+  float: left;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.boxthree {
+  width: 20%;
+  height: 530px;
+  background-color: rgb(12, 11, 11);
+  float: left;
+  display: flex;
+}
+
+.boxtwo a {
+  font-size: 20px;
+  color: yellow;
+  text-decoration: none;
+
+}
+
+.boxtwo p {
+  font-size: 17px;
+  color: white;
+}
+
+.boxthree span {
+  color: white;
+  font-size: 34px;
+}
+
+.boxthree p {
+  color: white;
+  font-size: 24px;
+}
+
+.counter h2 {
+  width: 190px;
+  height: 240px;
+  border-style: solid;
+  padding-left: 12px;
+  color: white;
+}
+
+.counter {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+
+.boxthree button {
+  background-color: rgb(221, 221, 3);
+  border: none;
+  color: rgb(255, 255, 255);
+  margin-top: 50px;
+  margin-left: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 180px;
+  height: 50px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.women {
+  width: 100%;
+  height: 330px;
+  background-color: black;
+}
+
+.womenone {
+  width: 40%;
+  height: 530px;
+  background-color: rgb(26, 25, 25);
+  float: left;
+  display: flex;
+  padding-top: 35px;
+  padding-left: 35px;
+}
+
+.womentwo {
+  width: 40%;
+  height: 530px;
+  background-color: rgb(26, 25, 25);
+  float: left;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.womenthree {
+  width: 20%;
+  height: 530px;
+  background-color: rgb(26, 25, 25);
+  float: left;
+  display: flex;
+}
+
+.womentwo a {
+  font-size: 20px;
+  color: yellow;
+  text-decoration: none;
+
+}
+
+.womentwo p {
+  font-size: 17px;
+  color: white;
+}
+
+.womenthree span {
+  color: white;
+  font-size: 34px;
+}
+
+.womwnthree p {
+  color: white;
+  font-size: 24px;
+}
+
+.counter h2 {
+  width: 190px;
+  height: 240px;
+  border-style: solid;
+  padding-left: 12px;
+  color: white;
+}
+
+.counter {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.womenthree button {
+  background-color: rgb(221, 221, 3);
+  border: none;
+  color: rgb(255, 255, 255);
+  margin-top: 50px;
+  margin-left: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 180px;
+  height: 50px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.request {
+  width: 100%;
+  height: 700px;
+  background-color: black;
+}
+
+.form {
+  color: #dee941;
+  padding-left: 400px;
+  background-color: black;
+
+}
+
+.form p {
+  font-size: 25px;
+  color: white;
+}
+
+.form h1 {
+  font-size: 40px;
+  color: yellow;
+}
